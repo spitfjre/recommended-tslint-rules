@@ -4,7 +4,7 @@
   "license": "MIT",
   "main": "./tslint.json",
   "name": "recommended-tslint-rules",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "keywords": [
     "linting-rules",
     "tslint",
@@ -16,10 +16,12 @@
     "url": "https://github.com/spitfjre/recommended-tslint-rules.git"
   },
   "scripts": {
-    "lint": "tslint -q -p ./test/tsconfig.json -c ./tslint.json"
+    "lint": "tslint -q -p ./test/tsconfig.json -c ./tslint.json",
+    "tslint-check": "tslint-config-prettier-check ./tslint.json"
   },
   "dependencies": {
     "tslint-config-prettier": "^1.18.0",
+    "tslint-eslint-rules": "^5.4.0",
     "tslint-etc": "^1.5.3",
     "tslint-plugin-prettier": "^2.0.1"
   },
@@ -30,7 +32,6 @@
     "prettier": "1.18.2",
     "rxjs": "^6.4.0",
     "tslint": "^5.0.0",
-    "typescript": "^3.0.0",
     "typescript": "^3.0.0",
     "zone.js": "~0.9.1"
   },
