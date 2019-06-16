@@ -1,0 +1,31 @@
+{
+  "author": "Maximilian Aulbach",
+  "description": "",
+  "license": "MIT",
+  "main": "./tslint.json",
+  "name": "recommended-tslint-rules",
+  "version": "1.0.0",
+  "keywords": [
+    "linting-rules",
+    "tslint",
+    "frontend",
+    "angular"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spitfjre/recommended-tslint-rules.git"
+  },
+  "dependencies": {
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-etc": "^1.5.3",
+    "tslint-plugin-prettier": "^2.0.1"
+  },
+  "devDependencies": {
+    "prettier": "1.18.2"
+  },
+  "peerDependencies": {
+    "codelyzer": ">=5.0.0",
+    "tslint": ">=5.0.0",
+    "typescript": ">=3.0.0"
+  }
+}
