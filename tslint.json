@@ -1,5 +1,5 @@
 {
-	"extends": ["tslint:recommended", "tslint-config-prettier"],
+	"extends": ["tslint:recommended", "tslint-etc", "tslint-config-prettier"],
 	"rulesDirectory": ["codelyzer", "tslint-plugin-prettier"],
 	"rules": {
 		"adjacent-overload-signatures": true,
