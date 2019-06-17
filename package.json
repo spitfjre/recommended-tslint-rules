@@ -4,7 +4,7 @@
   "license": "MIT",
   "main": "./tslint.json",
   "name": "recommended-tslint-rules",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "keywords": [
     "linting-rules",
     "tslint",
